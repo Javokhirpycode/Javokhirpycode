@@ -1,3 +1,54 @@
+<div style="display: flex; justify-content: center; align-items: center;">
+    <div class="developer">
+        <img src="path/to/image.jpg" alt="Developer Image">
+        <div class="developer-info">
+            <h3>John Doe</h3>
+            <p>Web Developer</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .developer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: developer-anim;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    .developer img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes developer-anim {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+
+    .developer-info h3 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .developer-info p {
+        margin: 0;
+        font-size: 18px;
+        color: #666;
+    }
+</style>
+
+
 <h1 align="center">Hi there 👋 I'm Javokhir Nortojiev</h1>
 <h3 align="center">An enthusiastic Python Web Backend developer from Uzbekistan</h3>
 
