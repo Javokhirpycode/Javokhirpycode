@@ -1,4 +1,7 @@
-<h1 align="center">Hi there 👋 I'm Javokhir Nortojiev</h1>
+<h1 align="center">
+  <img src="file:///home/javokhir/Pictures/pictures/Pythonist.png" alt="Javokhir Nortojiev">
+</h1>
+
 <h3 align="center">An enthusiastic Python Web Backend developer from Uzbekistan</h3>
 
 - 🔭 I’m currently working on **diverse team-based and personal projects**
